@@ -1,0 +1,118 @@
+.header{
+	display: flex;
+}
+
+body {
+    background-color: #fbfbfb !important;
+}
+
+.logo{
+	background-image: url("logo.gif");
+	background-size: contain;
+	height: 100px;
+    width: 100px;
+	float: left;
+}
+
+.btn-success{
+    background-color: red !important;
+    border-color: red !important;
+}
+
+.prm-color{
+    color: #fff;
+    background-color:#008080 !important;
+    border-color:#008080 !important;
+}
+
+.pick_header{
+    padding-left: 50px;
+}
+
+.bottom_header{
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.title{
+	text-align: center;
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    padding: 10px;
+}
+.nav {
+	/* margin-left: auto; */
+    margin-right: 10px;
+	height: fit-content;
+    margin-top: 30px;
+}
+
+.nav .btn {
+    margin-left: 9px;
+}
+
+.pickList{
+	color: #008080;
+    /* border: 1px black solid; */
+    border-radius: 15px;
+    margin: 25px 25px;
+    padding: 15px 15px;
+    height: 400px;
+    overflow-y: auto;
+    /* width: 90%;
+    height: 400px;
+    position: absolute;
+    left: 5%; */
+}
+
+.selectedList{
+	color: green;
+    display: flex;
+    border: 1px gray solid;
+    border-radius: 10px;
+    padding: 15px 15px;
+    width: 600px;
+    height: 130px;
+    margin: auto;
+}
+
+.pickListNames {
+    border: 0px solid;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    position: relative;
+    animation-name: totop;
+    animation-duration: 30s;
+    animation-delay: 1s;
+}
+
+@keyframes totop {
+    0%   {left:0px; bottom:0px;}
+    25%  {left:0px; bottom:100px;}
+    50%  {left:0px; bottom:200px;}
+    75%  {left:0px; bottom:300px;}
+    100% {left:0px; bottom:400px;}
+}
+
+.selectedListNames {
+    /* border: 1px solid; */
+    border-radius: 5px;
+    padding: 10px;
+    width: fit-content;
+    margin: 5px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: black;
+    font-weight: 900;
+}
+
+.controls{
+    text-align: center;
+	margin-bottom: 30px;
+}
+
+
+
